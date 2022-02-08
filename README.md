@@ -1,7 +1,7 @@
-Exec this command 
-composer install 
-php bin/console doctrine:database:create
-composer require symfony/maker-bundle --dev
-php bin/console doctrine:migrations:migrate
+executes all these commands
+- composer install 
+- php bin/console doctrine:database:create
+- composer require symfony/maker-bundle --dev
+- php bin/console doctrine:migrations:migrate
 
-symfony server:start
+- symfony server:start
