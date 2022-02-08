@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% if username|length == 0 %}
+        <p>Bonjour, veuillez vous connecter ou vous enregister</p>
+    {% else %}
+        <p>Voici votre nom d'utilisateur {{username}}</p>
+    {% endif %}
+    <a href="{{path('login')}}">Login</a>
+    <a href="{{path('signup')}}">Sign up</a>
+    <a href="{{path('app_logout')}}">Log out</a>
+{% endblock %}
