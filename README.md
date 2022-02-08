@@ -4,4 +4,4 @@ executes all these commands
 - php bin/console doctrine:migrations:migrate
 
 - symfony server:start
-- go to localhost:8000
+- go to http://localhost:8000
